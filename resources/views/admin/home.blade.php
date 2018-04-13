@@ -3,9 +3,11 @@
 @section('title', 'AdminLTE')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Dashboard Axei</h1>
 @stop
 
 @section('content')
-    <p>Bem vindo Administrador!</p>
+
+        <p>Seja bem-vindo(a) Administrador!</p>
+
 @stop

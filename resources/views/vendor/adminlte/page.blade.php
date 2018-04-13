@@ -91,9 +91,9 @@
             <!-- sidebar: style can be found in sidebar.less -->
             <section class="sidebar">
 
-                <!-- Sidebar Menu -->
+                <!-- Sidebar Menu //MENU DO ADMIN -->
                 <ul class="sidebar-menu" data-widget="tree">
-                    @each('adminlte::partials.menu-item', $adminlte->menu(), 'item')
+                     @each('adminlte::partials.menu-item', $adminlte->menu(), 'item')
                 </ul>
                 <!-- /.sidebar-menu -->
             </section>

@@ -3,9 +3,11 @@
 @section('title', 'AdminLTE')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Dashboard Axei</h1>
 @stop
 
 @section('content')
-    <p>You are logged in!</p>
+
+    <p>Olá {{Auth::user()->name}}, seja bem-vindo(a) ao seu Painel de Controle!</p>
+
 @stop
